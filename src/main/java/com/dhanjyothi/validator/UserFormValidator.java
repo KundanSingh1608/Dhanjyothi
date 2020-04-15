@@ -1,7 +1,7 @@
  package com.dhanjyothi.validator;
 
 /*
- *  @author GunjanKumar
+ *  @author KundanSingh
  *  
  *  */
 import java.util.regex.Pattern;

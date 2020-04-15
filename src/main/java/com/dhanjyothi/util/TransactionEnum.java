@@ -6,7 +6,7 @@ package com.dhanjyothi.util;
 import org.springframework.stereotype.Component;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
 

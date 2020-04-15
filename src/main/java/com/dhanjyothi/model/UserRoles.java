@@ -17,7 +17,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
 @Entity
@@ -25,9 +25,14 @@ import javax.persistence.Table;
 public class UserRoles implements Serializable{
 
 	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6627370589242545593L;
+	/**
 	 * @generated serial version uid
 	 */
-	private static final long serialVersionUID = 2500513691195708570L;
+	//private static final long serialVersionUID = 2500513691195708570L;
+	//private static final long serialVersionUID = 1L;
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "ROLE_ID",nullable = false)

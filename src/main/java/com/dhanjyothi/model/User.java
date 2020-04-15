@@ -29,7 +29,12 @@ public class User implements Serializable{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 5655734095580591341L;
+	private static final long serialVersionUID = 5739820819121987128L;
+	/**
+	 * 
+	 */
+	//private static final long serialVersionUID = 5655734095580591341L;
+	//private static final long serialVersionUID = 1L;
 	
 	public User() {}
 	public User(String firstName, String lastName, LocalDate dob, String address1, String address2, String city,

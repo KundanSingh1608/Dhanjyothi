@@ -28,7 +28,8 @@ public class Transaction implements Serializable{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1411304874104715100L;
+	//private static final long serialVersionUID = 1411304874104715100L;
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "TRN_ID", unique = true, nullable = false)

@@ -4,7 +4,7 @@
 package com.dhanjyothi.config;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
 import java.io.IOException;

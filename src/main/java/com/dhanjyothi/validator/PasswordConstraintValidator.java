@@ -23,7 +23,7 @@ import org.passay.WhitespaceRule;
 import com.google.common.base.Joiner;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
 public class PasswordConstraintValidator implements ConstraintValidator<ValidPassword, String> {

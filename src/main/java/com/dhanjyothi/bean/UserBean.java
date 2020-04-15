@@ -13,9 +13,10 @@ import com.dhanjyothi.validator.PasswordMatches;
 import com.dhanjyothi.validator.ValidPassword;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
+
 @PasswordMatches
 public class UserBean {
 	@Pattern(regexp="[^0-9]*",message = "Only Alphabets allowed")

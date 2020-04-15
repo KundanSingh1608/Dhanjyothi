@@ -6,7 +6,7 @@ package com.dhanjyothi.bean;
 import java.io.Serializable;
 
 /**
- * @author GunjanKumar
+ * @author KundanSingh
  *
  */
 public class Signin implements Serializable{
@@ -14,7 +14,8 @@ public class Signin implements Serializable{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 7298716947587249376L;
+	//private static final long serialVersionUID = 7298716947587249376L;
+	private static final long serialVersionUID = 1L;
     private String userName;
     private String password;
 	public String getUserName() {

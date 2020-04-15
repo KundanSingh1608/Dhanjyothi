@@ -21,10 +21,12 @@ import org.hibernate.annotations.OnDeleteAction;
 @Table(name = "BENEFICIARY",catalog = "kundan")
 public class Beneficiaries implements Serializable{
 
+	
 	/**
 	 * generated version id
 	 */
-	private static final long serialVersionUID = -7954834380888129917L;
+	//private static final long serialVersionUID = -7954834380888129917L;
+	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name = "BEN_ID",nullable = false)
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
